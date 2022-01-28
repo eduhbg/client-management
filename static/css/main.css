@@ -1,0 +1,29 @@
+table {
+    margin-top: 2.5rem;
+}
+
+.up-del {
+    display: inline-block;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.input-group {
+    max-width: 35rem;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titles {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#inputs-btn {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.5rem;
+}
