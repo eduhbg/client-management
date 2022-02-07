@@ -3,7 +3,7 @@
 ## Overview
 The project aims to study Flask framework and how to use in a pratical context.
 
-Click [here](https://eduhbg-client-management.herokuapp.com/) to check my live demo.
+Live demo [here](https://eduhbg-client-management.herokuapp.com/).
 
 ![image](https://user-images.githubusercontent.com/58524485/151796733-8eaafb6c-3ec4-44ab-9ef3-c5a72b8c6fb3.png)
 
@@ -24,6 +24,6 @@ python3 app.py
 The project will run in localhost (http://127.0.0.1:5000/).
 
 ## Dependencies
-- Python ([installation instructions](https://www.python.org/downloads))
+- [Python](https://www.python.org/downloads)
 - Virtualenv (`sudo apt install python3-virtualenv`)
 - Check out for more dependencies [here](https://github.com/eduhbg/client-management/blob/main/requirements.txt).
