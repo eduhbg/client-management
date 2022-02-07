@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Client Management</title>
+
+{% endblock %}
+
+{% block body %}
+
+<div class="content">
+
+    <h1 class="titles">Update Client</h1>
+
+    <form id="form-up" action="/update/{{client.id}}" method="POST">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+            </div>
+            <input type="text" name="name" value="{{client.name}}" maxlength="50" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Address</span>
+            </div>
+            <input type="text" name="address" placeholder="Address" value="{{client.address}}" maxlength="100" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Phone</span>
+            </div>
+            <input type="text" name="phone" placeholder="Phone" value="{{client.phone}}" maxlength="15" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+        </div>
+
+        <input id="inputs-btn" class="btn btn-primary btn-sm" type="submit" value="UPDATE">
+    </form>
+
+    <form action="/">
+        <input id="inputs-btn" class="btn btn-secondary btn-sm" type="submit" value="BACK">
+    </form>
+
+</div>
+
+{% endblock %}
