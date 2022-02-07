@@ -24,4 +24,6 @@ python3 app.py
 The project will run in localhost (http://127.0.0.1:5000/).
 
 ## Dependencies
-Check the requirements [here](https://github.com/eduhbg/client-management/blob/main/requirements.txt).
+- Python ([installation instructions](https://www.python.org/downloads))
+- Virtualenv (`sudo apt install python3-virtualenv`)
+- Check out for more dependencies [here](https://github.com/eduhbg/client-management/blob/main/requirements.txt).
